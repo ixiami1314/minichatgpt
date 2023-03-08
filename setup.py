@@ -4,8 +4,8 @@ from hiq import read_file
 
 setup(
     name='minichatgpt',
-    maintainer='Juncong Moo',
-    maintainer_email='juncongmoo@gmail.com',
+    maintainer='Northest AI',
+    maintainer_email='webmaster@northestai.com',
     version=read_file('version.txt',by_line=False),
     packages=find_packages(exclude=(
         'tests',
